@@ -1,3 +1,90 @@
-.hero{
-    
+* {
+    text-decoration: none;
+    margin: 0;
+    font-family: 'DM Sans' arial;
+}
+
+body {
+    background-color: beige;
+}
+
+
+header {
+    background-image: url(Assets/image-header.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-size: cover;
+}
+
+nav {
+
+    text-align: right;
+
+    li {
+        font-size: 18px;
+        display: inline-block;
+        text-align: right;
+
+        a {
+            color: white;
+            padding: 5px;
+            text-transform: uppercase;
+
+        }
+    }
+
+}
+.navy {
+    padding: 50px;
+    margin-right: 20px;
+}
+
+#logo {
+    padding: 50px;
+    float: left;
+}
+
+
+#hero {
+    text-align: center;
+    color: white;
+
+    h1 {
+        font-size: 160px;
+        font-style: 'regular';
+
+        color: white;
+
+        span {
+            font-size: 53px;
+        }
+    }
+
+    h2 {
+        font-size: 28px;
+        font-style: bold;
+    }
+
+    .boutonDeux {}
+
+
+}
+
+#hero>div {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+
+
+}
+
+.banniere {
+    background-image: url(Assets/banniere-logo.png);
+}
+
+.formUn div {
+    display: inline-grid;
+    width: 100%;
+    text-decoration: none;
 }

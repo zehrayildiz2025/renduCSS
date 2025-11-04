@@ -11,48 +11,47 @@
 <body>
     <header>
         <nav>
-            <a href="">
+            <a href="" id="logo">
                 <img src="Assets/logo-header.png" alt="logo">
             </a>
 
+            <ul class="navy">
+                <li>
+                    <a href="">ACCUEIL</a>
+                </li>
+                <li>
+                    <a href="">LINE UP</a>
+                </li>
+                <li>
+                    <a href="">TICKET</a>
+                </li>
+                <li>
+                    <a href="">CALENDRIER</a>
+                </li>
+                <li>
+                    <a href="">A PROPOS</a>
+                </li>
+            </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="">ACCUEIL</a>
-            </li>
-            <li>
-                <a href="">LINE UP</a>
-            </li>
-            <li>
-                <a href="">TICKET</a>
-            </li>
-            <li>
-                <a href="">CALENDRIER</a>
-            </li>
-            <li>
-                <a href="">A PROPOS</a>
-            </li>
-        </ul>
 
-    </header>
-    <!-- Hero section -->
-    <section class="hero">
-        <div>
-            <h1>
-                <span>URBAN NIGHT</span>
-                Rap Fest
-            </h1>
-            <h2>
-                04 MAI & 05 MAI
-                LYON - PARC DE GERLAND
-                7EME
-            </h2>
+        <!-- Hero section -->
+        <section id="hero">
             <div>
-                <a href="">Billetterie</a>
-                <a href="">PLUS D’INFO</a>
+                <h1>
+                    <span>URBAN NIGHT</span> <br>Rap Fest
+                </h1>
+                <h2>
+                    04 MAI & 05 MAI
+                    LYON - PARC DE GERLAND
+                    7EME
+                </h2>
+                <div class="boutonDeux">
+                    <a href="">Billetterie</a>
+                    <a href="">PLUS D’INFO</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
     <!-- Main section -->
     <main>
         <!-- Description section -->
@@ -98,7 +97,7 @@
             <a href="">Billetterie</a>
         </section>
         <!-- Section bannière -->
-        <section>
+        <section class="banniere">
             <img src="Assets/spotify.png" alt="Spotify">
             <img src="Assets/applemusic.png" alt="AppleMusic">
             <img src="Assets/uber.png" alt="Uber">
@@ -112,21 +111,21 @@
                 <a href="help@raptureclouds.com">help@raptureclouds.com</a> with any questions or concerns.
             </p>
 
-            <form action="">
+            <form class="formUn" action="">
                 <div><label for="Fullname">Full Name</label>
-                    <input type="text" name="Fullname">
+                    <input type="text" name="Fullname" placeholder="Full Name">
                 </div>
                 <div>
                     <label for="Email">Email</label>
-                    <input type="text" name="Email">
+                    <input type="text" name="Email" placeholder="Email">
                 </div>
                 <div>
                     <label for="Phone">Phone</label>
-                    <input type="text" name="Phone">
+                    <input type="text" name="Phone" placeholder="Phone">
                 </div>
                 <div>
                     <label for="Message">Message</label>
-                    <textarea name="Message" id="Message">Message</textarea>
+                    <textarea name="Message" id="Message" placeholder="Message"></textarea>
                 </div>
             </form>
             <button>
@@ -144,14 +143,17 @@
 
             <a href="help@raptureclouds.com">help@raptureclouds.com</a>
         </div>
-        <form action="">
+        <form action="" class="Newsletter">
             <label for="Newsletter">Newsletter</label>
-            <input type="text" name="Ton mail">
-
+            <input type="text" name="Ton mail" placeholder="Ton mail">
+            <button>
+                <a href="">SUBSCRIBE</a>
+            </button>
         </form>
+
         <div>
-            <p></p>
-            <p></p>
+            <p>Copyright © 2025 • Rapture - Music Festival</p>
+            <p>Terms & Conditions for Event • Privacy Policy • Terms of Use</p>
         </div>
 
     </footer>
