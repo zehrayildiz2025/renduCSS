@@ -51,11 +51,8 @@ nav {
     color: white;
 
     h1 {
-        font-size: 160px;
+        font-size: 140px;
         font-style: 'regular';
-
-        color: white;
-
         span {
             font-size: 53px;
         }
