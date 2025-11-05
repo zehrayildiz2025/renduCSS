@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- section header -->
     <header>
         <nav>
             <a href="" id="logo">
@@ -41,27 +42,27 @@
 
         <!-- Hero section -->
         <section id="hero">
-            <div class="main_part">
+            <div class="main_part container">
                 <h1><span>URBAN NIGHT</span> <br>Rap Fest
                 </h1>
                 <h2>
                     04 MAI & 05 MAI<br>
                     <span class="parc">LYON - PARC DE GERLAND<br>
-                    7EME</span>
+                        7EME</span>
                 </h2>
-           
-            <div class="button">
-                <a href="" class="buttonUn">BILLETERIE</a>
-                <a href="" class="buttonUn buttonDeux ">PLUS D'INFO</a>
+
+                <div class="button">
+                    <a href="" class="buttonUn">BILLETERIE</a>
+                    <a href="" class="buttonUn buttonDeux ">PLUS D'INFO</a>
+                </div>
             </div>
-             </div>
         </section>
     </header>
     <!-- Main section -->
     <main>
         <!-- Description section -->
-        <section class="description">
-            <div class="desc_text">
+        <section class="description paddingSection">
+            <div class="container">
                 <h2>
                     Plongez au coeur du rythme urbain
                     avec RAPture, le festival de rap qui célèbre
@@ -87,8 +88,8 @@
             <img src="Assets/section-img.png" alt="singing man">
         </section>
         <!-- Line up section, ul li with a button -->
-        <section class="line-up">
-            <div class="artist">
+        <section class="line-up paddingSection">
+            <div class="container">
                 <h2>LINE UP</h2>
                 <ul>
 
@@ -103,7 +104,9 @@
                     <li></li>
 
                 </ul>
-                <div class="ticket"><a href="">Billetterie</a></div>
+
+                <a href="" class="buttonUn buttonDeux centered">Billetterie</a>
+
             </div>
         </section>
         <!-- Section bannière -->
@@ -117,7 +120,7 @@
             </div>
         </section>
         <!-- Section Contactez-nous form-->
-        <section id="formulat">
+        <section id="formulat" class="paddingSection">
             <div class="container">
                 <h2>Contactez-nous</h2>
                 <p>Fill out the booking form below to ask any questions, or reach out to us directly at
@@ -142,11 +145,8 @@
                     </div>
                 </form>
 
-                <div>
-                    <button >
-                        <a href="">Contact</a>
-                    </button>
-                </div>
+                <button class="buttonUn buttonDeux centered">Contact</button>
+
 
             </div>
         </section>
@@ -165,9 +165,7 @@
             <form action="" class="newsletter">
                 <label for="Newsletter">Newsletter</label>
                 <input type="text" name="Ton mail" placeholder="Ton mail">
-                <button>
-                    <a href="">SUBSCRIBE</a>
-                </button>
+                <button class="buttonUn ">Subscribe</button>
             </form>
         </div>
 
