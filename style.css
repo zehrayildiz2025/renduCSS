@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: black;
 }
 
 
@@ -48,11 +48,15 @@ nav {
 
 
 #hero {
-    text-align: center;
+
     color: white;
 
+    .main_part {
+        text-align: left;
+    }
+
     h1 {
-        font-size: 140px;
+        font-size: 110px;
         font-style: 'regular';
 
         span {
@@ -61,36 +65,28 @@ nav {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 20px;
         font-style: bold;
         margin-bottom: 50px;
-    }
 
-    .buttonUn {
-        background-color: black;
-        padding: 20px 32px;
-        border-radius: 8px;
-        margin-right: 15px;
-    }
-
-    .buttonUn {
-        a {
-            color: white;
+        .parc {
+            font-weight: 300;
         }
     }
 
-    .buttonDeux {
-        background-color: white;
-        padding: 15px 32px;
-        border-radius: 8px;
-        margin-top: 40px;
-        margin-left: 15px;
+}
 
-        a {
-            color: black;
-        }
-    }
+.buttonUn {
+    background-color: black;
+    padding: 20px 32px;
+    border-radius: 8px;
+    margin-right: 15px;
+    color: white;
+}
 
+.buttonDeux {
+    background-color: white;
+    color: black;
 
 }
 
@@ -149,27 +145,27 @@ nav {
         border-top: 2px dashed rgba(255, 255, 255, 0.893);
     }
 
-    #ticket {
-        text-align: center;
-
-        a {
-            color: black;
-        }
+    .artist {
+        width: 600px;
+        margin: auto;
     }
 
+}
+
+.ticket {
+    text-align: center;
+
     a {
+        color: black;
         background-color: white;
         padding: 15px 32px;
         border-radius: 8px;
         margin-top: 40px;
         margin-left: 15px;
     }
-
-    .artist {
-        width: 600px;
-        margin: auto;
-    }
 }
+
+
 
 .singing_man {
     img {
@@ -179,14 +175,99 @@ nav {
 
 .banniere {
     background-image: url(Assets/banniere-logo.png);
-    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+
+    #ads {
+        text-align: center;
+        padding: 150px 50px;
+
+        img {
+            padding-right: 20px;
+        }
+    }
 }
 
-.formUn div {
-    display: inline-grid;
-    width: 100%;
-    text-decoration: none;
+#formulat {
+
+
+    background-color: black;
+
+    .container {
+        text-align: center;
+        width: 600px;
+        margin: auto;
+        color: white;
+        background-color: black;
+
+    }
+
+    .container {
+        color: white;
+
+        p a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+
+    .formUn div {
+        display: inline-grid;
+        text-align: left;
+        width: 100%;
+        text-decoration: none;
+    }
+
+}
+
+/* section footer */
+.footer_top {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.email {
+    display: inline-block;
+    font-style: medium;
+
+    a {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.newsletter {
+    float: right;
+
+    button {
+        background-color: black;
+    }
+
+    a {
+        color: white;
+        background-color: black;
+        border: none;
+    }
+
+}
+
+.footer_bottom {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    margin: 25px;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+#terms {
+    float: right;
 }
