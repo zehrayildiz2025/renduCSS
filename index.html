@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rapture</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +32,7 @@
                     <a href="">CALENDRIER</a>
                 </li>
                 <li>
-                    <a href="">A PROPOS</a>
+                    <a href="">À PROPOS</a>
                 </li>
             </ul>
         </nav>
@@ -45,9 +48,9 @@
                     LYON - PARC DE GERLAND
                     7EME
                 </h2>
-                <div class="boutonDeux">
-                    <a href="">Billetterie</a>
-                    <a href="">PLUS D’INFO</a>
+                <div class="button">
+                    <a href="" class="buttonUn">Billetterie</a>
+                    <a href="" class="buttonDeux">PLUS D'INFO</a>
                 </div>
             </div>
         </section>
@@ -56,6 +59,7 @@
     <main>
         <!-- Description section -->
         <section class="description">
+            <div class="desc_text">
             <h2>
                 Plongez au coeur du rythme urbain
                 avec RAPture, le festival de rap qui célèbre
@@ -65,22 +69,24 @@
             <p>
                 Du 4 au 5 mai, vibrez au son des artistes les plus bouillants de la scène rap, entre
                 performances live, freestyles enflammés et rencontres inédites.
-                RAPture, c’est plus qu’un festival, c’est une immersion dans l’essence du hip-hop : des flows
-                tranchants, des basses profondes et une énergie brute qui réunit toutes les générations. 
+                RAPture, c'est plus qu'un festival, c'est une immersion dans l'essence du hip-hop : des flows
+                tranchants, des basses profondes et une énergie brute qui réunit toutes les générations.
                 Sur scène, les talents montants côtoient les légendes, pour un week-end où chaque rime fait
-                écho aux histoires de la rue, des rêves et de la liberté d’expression.
+                écho aux histoires de la rue, des rêves et de la liberté d'expression.
                 Venez vivre trois jours de pure intensité, là où la musique, la vibe et la culture rap ne font plus
-                qu’un.
+                qu'un.
             </p>
+            </div>
         </section>
 
 
         <!-- Section singing man image -->
-        <section>
+        <section class="singing_man">
             <img src="Assets/section-img.png" alt="singing man">
         </section>
         <!-- Line up section, ul li with a button -->
-        <section>
+        <section class="line-up">
+            <div class="artist">
             <h2>LINE UP</h2>
             <ul>
 
@@ -92,17 +98,21 @@
                 <li> <strong>05 MAI</strong> - a.c</li>
                 <li> <strong>05 MAI</strong> - kekra</li>
                 <li> <strong>05 MAI</strong> - theodora</li>
+                <li></li>
 
             </ul>
-            <a href="">Billetterie</a>
+            <div id="ticket"><a href="">Billetterie</a></div>
+            </div>
         </section>
         <!-- Section bannière -->
         <section class="banniere">
+            <div class="ads">
             <img src="Assets/spotify.png" alt="Spotify">
             <img src="Assets/applemusic.png" alt="AppleMusic">
             <img src="Assets/uber.png" alt="Uber">
             <img src="Assets/deezer.png" alt="Deezer">
             <img src="Assets/motorola.png" alt="Motorola">
+            </div>
         </section>
         <!-- Section Contactez-nous form-->
         <section>
